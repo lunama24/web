@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: georgia, serif;
+  line-height: 2.0;
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+}
+
+header{
+  background: #fff;
+  border: 4px  solid #18171c;
+  color: #18171c;
+  padding: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: georgia, serif;
+
+}
+
+header h1{
+  color: #18171c;
+  margin: 0;
+  font-family: georgia, serif;
+}
+
+.section-1{
+    padding:10px;
+    background-image: url("https://img.freepik.com/fotos-premium/imagen-borrosa-muchos-libros-antiguos-estanteria-biblioteca_978921-1349.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:500px;
+    background-size: 100% 100%;
+}
+
+.section-1-text{
+    display: block;
+    border: #18171c;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}
+.section-1 h2{
+    font-size: 20px;
+    color: #fff;
+   
+}
+.btn
+{
+    display: block;
+    border-radius: 8px;
+    color:white;
+    background-color: #18171c;
+    font-size:20px;
+    text-decoration: none;
+    width:fit-content;
+    height:fit-content;
+    padding:15px;
+}
+
+.btn:hover{
+    background-color: #fff;
+}
+
+li {
+    display: inline;
+    float: left;
+    padding-left: 15px;
+  }
+
+  li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-family: georgia, serif;
+    font-size: 16px;
+  }
+
+  li ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #18171c;
+  }
+
+  li a:hover {
+    background-color: #18171c;
+  }
+
+.content h2{
+    background: #18171c;
+    font-family: georgia, serif;
+    text-align: center;
+
+}
+  .container-items{
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 140px;
+    background-color: #fff;
+    text-align: left;
+    padding: 20px;
+    border: 4px  solid #18171c;
+}
+
+.item{
+    border-radius: 0px;
+}
+
+.item:hover{
+    box-shadow: 12px 12px 2px 1px #18171c;
+}
+
+.item img{
+    width: auto;
+    height: 220px;
+    object-fit: cover;
+    transition: all .10s;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+
+.info-product{
+    padding: 20px 30px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    color: #18171c;
+}
+
+.author{
+    font-size: 18px;
+    font-weight: 900;
+    font-family: times new roman serif;
+    color: #7a7a7a;
+}
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: #18171c;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+footer{
+    background: #18171c;
+    color: #fff;
+    text-align: center;
+    padding: 0.8px 0;
+    margin-top: 15px;
+    font-family: georgia, serif;
+}
+

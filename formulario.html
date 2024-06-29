@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>entrelibros/categorias</title>
+		<link rel="stylesheet" href="formulario.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Entre Libros</h1>
+		<nav>
+            <ul class="cont-ul">
+                <li><a href="libreria.html">Inicio</a></li>
+                <li><a href="categorias.html">Libros</a></li>
+                <li><a href="">Iniciar Sesión</a></li>
+                <li><a href="">Crear Cuenta</a></li>
+                <li><a href="formulario.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+			<div class="container-icon">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="icon-cart"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+					/>
+				</svg>
+				<div class="count-products">
+					<span id="contador-productos">1</span>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="cart-product">
+						<div class="info-cart-product">
+							<img src="1.jpeg"alt="GOT" width="60" height="60"/>
+							<span class="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto-carrito">Fire And Blood(GOT)</p>
+                            <span class="precio-producto-carrito">₡9.500</span> 	
+                        </div>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="icon-close"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M6 18L18 6M6 6l12 12"
+							/>
+						</svg>
+					</div>
+                    <div class="cart-total">
+                        <h3>Total:</h3>
+                        <span class="total-pagar">₡9.500</span>
+                    </div>
+				</div>
+			</div>	
+		</header>
+	<main>
+
+	<section class="content">
+			<h2>Contáctanos</h2>
+			<h3>Puedes ponerte en contacto con nosotros, o bien dejarnos tus comentarios y sugerencias.</h3>
+	</section>
+
+	<section class="content-form">
+			<h2>Formulario de contacto</h1>
+			<form>	
+				<label for="name">Nombre:</label>
+				<input type="text" name="name">
+
+				<label for="email">Correo Electrónico:</label>
+				<input type="email" name="email" required>
+
+				<label for="number">Teléfono</label>
+				<input type="number" name="number" required>
+				<select id="country" name="País">
+                    <option value="costarica">Costa Rica</option>
+                    <option value="panama">Panamá</option>
+                    <option value="guatemala">Guatemala</option>
+                    <option value="usa">USA</option>
+                </select>
+				<label for="message">Escribe Tu Mensaje:</label>
+				<textarea name="message" rows="5" required></textarea>
+
+				<button type="submit">Enviar</button>
+			</form> 
+	    </section>
+   </main>
+<footer> 
+    <p>Entre Libros</p>
+</footer>     
+</body>
+</html>
